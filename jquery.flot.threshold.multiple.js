@@ -52,7 +52,7 @@ Internally, the plugin works by splitting the data into different series, one fo
 			var set = new Resolve(this._dataset).using(constraint.threshold, constraint.evaluate);
 			this._plotData.push( {
 				data : set,
-				color : constraint.color,
+				color : constraint.color
 			});
 			}
 		}
